@@ -3,14 +3,14 @@ import PropTypes from "prop-types";
 
 export default function Statistics({ title, stats }) {
   return (
-    <section class="statistics">
-      <h2 class="title">{title}</h2>
+    <section className="statistics">
+      <h2 className="title">{title}</h2>
 
-      <ul class="stat-list">
+      <ul className="stat-list">
         {stats.map((stats) => (
-          <li class="item" key={stats.id}>
-            <span class="label">{stats.label}</span>
-            <span class="percentage">{stats.percentage}</span>
+          <li className="item" key={stats.id}>
+            <span className="label">{stats.label}</span>
+            <span className="percentage">{stats.percentage}%</span>
           </li>
         ))}
       </ul>
