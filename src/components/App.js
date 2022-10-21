@@ -10,9 +10,11 @@ import FriendList from "./FriendList/FriendList";
 import transactions from "../data/transactions.json";
 import TransactionHistory from "./TransactionHistory/TransactionHistory";
 
+import { Container } from "./App.styled";
+
 function App() {
   return (
-    <div>
+    <Container>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -23,7 +25,7 @@ function App() {
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />;
       <TransactionHistory items={transactions} />;
-    </div>
+    </Container>
   );
 }
 
