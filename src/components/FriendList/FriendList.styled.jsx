@@ -13,7 +13,7 @@ export const FriendItem = styled.li`
     align-items: center;
     gap: 20px;
     padding: 16px;
-    margin-bottom: 15px;
+    margin-bottom: 4px;
     background-color: #ffffff;
     box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
 

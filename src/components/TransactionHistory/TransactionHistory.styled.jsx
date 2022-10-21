@@ -5,7 +5,7 @@ export const TransactionHistoryTable = styled.table`
     width: 600px;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 40px;
+    margin-top: 15px;
     box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
 `;
 export const TableThead = styled.thead`
